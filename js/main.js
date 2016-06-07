@@ -29,6 +29,16 @@
 
     d3.csv("data/topWords.csv", function(error, data) {
 
+        data.sort(function(a,b){
+            if(+a.frequency === +b.frequency){
+                return 0;
+            } else if(+a.frequency > +b.frequency){
+                return -1;
+            }else{
+                return 1;
+            }
+        });
+
         x.domain(data.map(function(d) { return d.word; }));
         y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
 
