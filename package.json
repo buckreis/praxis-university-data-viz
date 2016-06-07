@@ -1,0 +1,25 @@
+{
+  "name": "praxis-university-data-viz",
+  "version": "1.0.0",
+  "description": "data viz lab for Praxis University",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckreis/praxis-university-data-viz.git"
+  },
+  "keywords": [
+    "praxis",
+    "d3",
+    "dataviz"
+  ],
+  "author": "buckreis@gmail.com",
+  "bugs": {
+    "url": "https://github.com/buckreis/praxis-university-data-viz/issues"
+  },
+  "homepage": "https://github.com/buckreis/praxis-university-data-viz#readme",
+  "dependencies": {
+    "d3": "^3.5.17"
+  }
+}
